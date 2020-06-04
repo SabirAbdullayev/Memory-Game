@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+}
+body{
+    height: 100vh;
+    display: flex;
+    background-color: green
+}
+table{
+    margin: auto;
+}
+table,td{
+    border: 4px solid black;
+    border-collapse: collapse;
+}
+td{
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    font: normal 50px Arial;
+    cursor: pointer;
+    user-select: none;
+}
+
+td img{
+    width: 80px;
+    height: 80px;
+}
+#timer{
+    font-size: 35px;
+}
+#controls{
+    padding-top: 10px;
+    margin-left: 10px;
+}
